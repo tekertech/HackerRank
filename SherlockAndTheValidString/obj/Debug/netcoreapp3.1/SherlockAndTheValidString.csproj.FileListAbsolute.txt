@@ -1,0 +1,13 @@
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\bin\Debug\netcoreapp3.1\SherlockAndTheValidString.exe
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\bin\Debug\netcoreapp3.1\SherlockAndTheValidString.deps.json
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\bin\Debug\netcoreapp3.1\SherlockAndTheValidString.runtimeconfig.json
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\bin\Debug\netcoreapp3.1\SherlockAndTheValidString.runtimeconfig.dev.json
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\bin\Debug\netcoreapp3.1\SherlockAndTheValidString.dll
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\bin\Debug\netcoreapp3.1\SherlockAndTheValidString.pdb
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\obj\Debug\netcoreapp3.1\SherlockAndTheValidString.csprojAssemblyReference.cache
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\obj\Debug\netcoreapp3.1\SherlockAndTheValidString.AssemblyInfoInputs.cache
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\obj\Debug\netcoreapp3.1\SherlockAndTheValidString.AssemblyInfo.cs
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\obj\Debug\netcoreapp3.1\SherlockAndTheValidString.csproj.CoreCompileInputs.cache
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\obj\Debug\netcoreapp3.1\SherlockAndTheValidString.dll
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\obj\Debug\netcoreapp3.1\SherlockAndTheValidString.pdb
+C:\Tfs\DEV\HackerRank\SherlockAndTheValidString\obj\Debug\netcoreapp3.1\SherlockAndTheValidString.genruntimeconfig.cache
