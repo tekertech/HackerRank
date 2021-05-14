@@ -34,9 +34,9 @@ namespace SherlockAndTheValidString
             #endregion
 
             #region MaximumPalindrome
-            String str = "osmovvaggkdiohrbmqrrtednihobbxshoyhoyjzxwmzcypzsykwcwpzrgdzsvvhtbjqxymjegmvpfyfdnzndpvhnsokkvykvtmmp";
-            int l = 25, r = 27; 
-            Console.WriteLine(MaximumPalindrome.answerQuery(l,r,str));
+            String str = "wuhmbspjnfviogqzldrcxtaeyk";
+            int l = 21, r = 21;
+            Console.WriteLine(MaximumPalindrome.answerQuery(l, r, str));
 
             Console.ReadLine();
             #endregion

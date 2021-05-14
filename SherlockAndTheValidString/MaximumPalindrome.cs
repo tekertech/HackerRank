@@ -34,7 +34,7 @@ namespace SherlockAndTheValidString
         {
             // Return the answer for this query modulo 1000000007.
 
-            string str = s.Substring(l-1, r-l+1);
+            string str = expand(s,l,r); // s.Substring(l-1, r-l+1);
             // String deki her karajkterin adet sayısı
             var groupBy = str.GroupBy(x => x);
 
@@ -81,7 +81,23 @@ namespace SherlockAndTheValidString
                 return 1;
             }
             return n * Faktor(n - 1);
-        } 
+        }
+
+        // Expand in both directions of `low` and `high` to find
+        // maximum length palindrome
+        public static string expand(string str, int low, int high)
+        {
+            int len = str.Length;
+
+            // run till `str[low.high]` is a palindrome
+            while (low >= 0 && high < len && (str[low] == str[high]))
+            {
+                low--; high++;        // Expand in both directions
+            }
+
+            // return palindromic substring
+            return str.Substring(low + 1, high - low - 1);
+        }
     }
 
 }
