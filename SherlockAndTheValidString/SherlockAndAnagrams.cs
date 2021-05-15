@@ -8,6 +8,10 @@ namespace SherlockAndTheValidString
     public static class SherlockAndAnagrams
     {
         /*
+          Kaynak Alınan Site : https://codereview.stackexchange.com/questions/153367/hackerrank-sherlock-and-anagram
+         */
+
+        /*
      * Complete the 'sherlockAndAnagrams' function below.
      *
      * The function is expected to return an INTEGER.
@@ -43,6 +47,7 @@ namespace SherlockAndTheValidString
                     foreach (var item in keyValues.OrderBy(x=> x.Key))
                     {
                         stringBuilder.Append(item.Key + item.Value.ToString());
+
                     }
 
                     var key = stringBuilder.ToString().GetHashCode();
