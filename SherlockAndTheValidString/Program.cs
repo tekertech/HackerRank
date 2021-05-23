@@ -32,7 +32,6 @@ namespace SherlockAndTheValidString
             //s = "ibfdgaeadiaefgbhbdghhhbgdfgeiccbiehhfcggchgghadhdhagfbahhddgghbdehidbibaeaagaeeigffcebfbaieggabcfbiiedcabfihchdfabifahcbhagccbdfifhghcadfiadeeaheeddddiecaicbgigccageicehfdhdgafaddhffadigfhhcaedcedecafeacbdacgfgfeeibgaiffdehigebhhehiaahfidibccdcdagifgaihacihadecgifihbebffebdfbchbgigeccahgihbcbcaggebaaafgfedbfgagfediddghdgbgehhhifhgcedechahidcbchebheihaadbbbiaiccededchdagfhccfdefigfibifabeiaccghcegfbcghaefifbachebaacbhbfgfddeceababbacgffbagidebeadfihaefefegbghgddbbgddeehgfbhafbccidebgehifafgbghafacgfdccgifdcbbbidfifhdaibgigebigaedeaaiadegfefbhacgddhchgcbgcaeaieiegiffchbgbebgbehbbfcebciiagacaiechdigbgbghefcahgbhfibhedaeeiffebdiabcifgccdefabccdghehfibfiifdaicfedagahhdcbhbicdgibgcedieihcichadgchgbdcdagaihebbabhibcihicadgadfcihdheefbhffiageddhgahaidfdhhdbgciiaciegchiiebfbcbhaeagccfhbfhaddagnfieihghfbaggiffbbfbecgaiiidccdceadbbdfgigibgcgchafccdchgifdeieicbaididhfcfdedbhaadedfageigfdehgcdaecaebebebfcieaecfagfdieaefdiedbcadchabhebgehiidfcgahcdhcdhgchhiiheffiifeegcfdgbdeffhgeghdfhbfbifgidcafbfcd";
             //result = SherlockAndTheValidString.isValid(s);
             #endregion
-
             #region MaximumPalindrome
             // String str = "wuhmbspjnfviogqzldrcxtaeyk";
             // int l = 21, r = 21;
@@ -40,20 +39,27 @@ namespace SherlockAndTheValidString
             // 
             // Console.ReadLine();
             #endregion
-
             #region SherlockAndAnagrams
-            int q = 2;
+            // int q = 2;
+            // 
+            // for (int qItr = 0; qItr < q; qItr++)
+            // {
+            //     string s = "abba";
+            // 
+            //     int result1 = SherlockAndAnagrams.sherlockAndAnagrams(s);
+            // 
+            //     Console.WriteLine(result1);
+            //     Console.ReadLine();
+            // }
 
-            for (int qItr = 0; qItr < q; qItr++)
-            {
-                string s = "abba";
+            #endregion
 
-                int result1 = SherlockAndAnagrams.sherlockAndAnagrams(s);
+            #region CommonChild
+            string s1 = "SHINCHAN";
+            string s2 = "NOHARAAA";
 
-                Console.WriteLine(result1);
-                Console.ReadLine();
-            }
-
+            int res = CommonChild.commonChild(s1,s2);
+            Console.WriteLine(res);
             #endregion
 
         }
