@@ -53,13 +53,17 @@ namespace SherlockAndTheValidString
             // }
 
             #endregion
-
             #region CommonChild
             string s1 = "SHINCHAN";
             string s2 = "NOHARAAA";
 
             int res = CommonChild.commonChild(s1,s2);
             Console.WriteLine(res);
+            #endregion
+            #region BearAndSteadyGene
+            string gene = "GAAATAAA";
+            int result1  = BearAndSteadyGene.steadyGene(gene);
+            Console.WriteLine(result1);
             #endregion
 
         }
